@@ -1,0 +1,197 @@
+{
+    "0": {
+        "name": "ROOT",
+        "type": "task",
+        "parent": "-1",
+        "agents": [
+            "r1",
+            "SterileEquipment"
+        ],
+        "children": [
+            "1"
+        ]
+    },
+    "1": {
+        "name": "ROOT_M",
+        "type": "method",
+        "parent": "0",
+        "agents": [
+            "r1",
+            "SterileEquipment"
+        ],
+        "children": [
+            "2",
+            "5",
+            "8",
+            "11",
+            "14"
+        ]
+    },
+    "2": {
+        "name": "GetObject",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1",
+            "SterileEquipment"
+        ],
+        "children": [
+            "3"
+        ]
+    },
+    "3": {
+        "name": "object-get",
+        "type": "method",
+        "parent": "2",
+        "agents": [
+            "r1",
+            "SterileEquipment"
+        ],
+        "children": [
+            "4"
+        ]
+    },
+    "4": {
+        "name": "get-object",
+        "type": "action",
+        "parent": "3",
+        "locations": [
+            "Storage1"
+        ],
+        "agents": [
+            "r1",
+            "SterileEquipment"
+        ],
+        "children": ""
+    },
+    "5": {
+        "name": "RechargeBattery",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "6"
+        ]
+    },
+    "6": {
+        "name": "battery-recharge",
+        "type": "method",
+        "parent": "5",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "7"
+        ]
+    },
+    "7": {
+        "name": "recharge-battery",
+        "type": "action",
+        "parent": "6",
+        "locations": "",
+        "agents": [
+            "r1"
+        ],
+        "children": ""
+    },
+    "8": {
+        "name": "DeliverObjects",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "9"
+        ]
+    },
+    "9": {
+        "name": "objects-delivery",
+        "type": "method",
+        "parent": "8",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "10"
+        ]
+    },
+    "10": {
+        "name": "deliver-objects",
+        "type": "action",
+        "parent": "9",
+        "locations": [
+            "Loc1"
+        ],
+        "agents": [
+            "r1"
+        ],
+        "children": ""
+    },
+    "11": {
+        "name": "ReturnObjectsToCheckpoint",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "12"
+        ]
+    },
+    "12": {
+        "name": "object-returning",
+        "type": "method",
+        "parent": "11",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "13"
+        ]
+    },
+    "13": {
+        "name": "return-objects",
+        "type": "action",
+        "parent": "12",
+        "locations": "",
+        "agents": [
+            "r1"
+        ],
+        "children": ""
+    },
+    "14": {
+        "name": "AlertTrigger",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "15"
+        ]
+    },
+    "15": {
+        "name": "alert-trigger",
+        "type": "method",
+        "parent": "14",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "16"
+        ]
+    },
+    "16": {
+        "name": "trigger-alert",
+        "type": "action",
+        "parent": "15",
+        "locations": "",
+        "agents": [
+            "r1"
+        ],
+        "children": ""
+    }
+}

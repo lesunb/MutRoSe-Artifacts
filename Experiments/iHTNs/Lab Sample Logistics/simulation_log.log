@@ -1,0 +1,266 @@
+0.00, [DEBUG], logger, ROBOTS_CONFIG=[{"avg_speed": 0.15, "battery_charge": 0.23995139509475963, "battery_discharge_rate": 0.00034, "id": 1, "local_plan": [["navigation", ["PC Room 2", [[-21.0, 18.0, -1.57], [-21.0, 16.0], [-18.0, 16.0], [-18.0, 13.0, 1.57]]], "navto_room"], ["approach_person", ["nurse"], "approach_nurse"], ["authenticate_person", ["nurse"], "authenticate_nurse"], ["operate_drawer", ["open"], "open_drawer_for_nurse"], ["send_message", ["nurse"], "notify_nurse_of_open_drawer_for_nurse_completed"], ["wait_message", ["nurse"], "wait_nurse_to_complete_deposit"], ["operate_drawer", ["close"], "close_drawer_nurse"], ["navigation", ["Laboratory", [[-18.0, 13.0, 1.57], [-18.0, 16.0], [-26.0, 16.0], [-26.0, 13.0, 1.57]]], "navto_lab"], ["approach_robot", ["lab_arm"], "approach_arm"], ["operate_drawer", ["open"], "open_drawer_lab"], ["send_message", ["lab_arm"], "notify_lab_arm_of_open_drawer_lab_completed"], ["wait_message", ["lab_arm"], "wait_lab_arm_to_complete_pick_up_sample"], ["operate_drawer", ["close"], "close_drawer_lab"]], "location": "PC Room 5", "name": "r1", "position": [-21.0, 18.0, -1.57], "skills": ["approach_person", "approach_robot", "authenticate_person", "navigation", "operate_drawer"]}]
+0.00, [DEBUG], logger, NURSES_CONFIG=[{"location": "PC Room 2", "position": [-20.0, 11.0, 1.57]}]
+0.00, [DEBUG], logger, Simulation open
+0.00, [DEBUG], logger, subcribing to in the topic /log
+1.38, [DEBUG], None, [debug],turtlebot1,move-base-info,Move_base is up and ok....,
+47.12, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+47.13, [INFO], turtlebot1, {"battery-level": "23.61%"}
+62.12, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+62.13, [INFO], turtlebot1, {"battery-level": "23.16%"}
+77.12, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+77.12, [INFO], turtlebot1, {"battery-level": "22.71%"}
+92.12, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+92.12, [INFO], turtlebot1, {"battery-level": "22.23%"}
+107.12, [INFO], turtlebot1, {"battery-level": "21.81%"}
+107.12, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+122.12, [INFO], turtlebot1, {"battery-level": "21.33%"}
+122.13, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+137.12, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+137.12, [INFO], turtlebot1, {"battery-level": "20.88%"}
+152.12, [INFO], turtlebot1, {"battery-level": "20.46%"}
+152.12, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+167.12, [INFO], turtlebot1, {"battery-level": "19.98%"}
+167.13, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+182.12, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+182.12, [INFO], turtlebot1, {"battery-level": "19.53%"}
+197.12, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+197.12, [INFO], turtlebot1, {"battery-level": "19.08%"}
+212.12, [INFO], turtlebot1, {"y": "18.00", "x": "-21.01", "yaw": "-1.54"}
+212.12, [INFO], turtlebot1, {"battery-level": "18.66%"}
+227.12, [INFO], turtlebot1, {"y": "18.00", "x": "-21.01", "yaw": "-1.54"}
+227.12, [INFO], turtlebot1, {"battery-level": "18.18%"}
+242.12, [INFO], turtlebot1, {"y": "18.00", "x": "-21.02", "yaw": "-1.54"}
+242.13, [INFO], turtlebot1, {"battery-level": "17.73%"}
+257.12, [INFO], turtlebot1, {"y": "18.00", "x": "-21.02", "yaw": "-1.54"}
+257.13, [INFO], turtlebot1, {"battery-level": "17.31%"}
+272.12, [INFO], turtlebot1, {"battery-level": "16.86%"}
+272.12, [INFO], turtlebot1, {"y": "18.00", "x": "-21.03", "yaw": "-1.54"}
+285.15, [DEBUG], None, end!
+0.00, [DEBUG], logger, ROBOTS_CONFIG=[{"avg_speed": 0.15, "battery_charge": 0.23995139509475963, "battery_discharge_rate": 0.00034, "id": 1, "local_plan": [["navigation", ["PC Room 2", [[-21.0, 18.0, -1.57], [-21.0, 16.0], [-18.0, 16.0], [-18.0, 13.0, 1.57]]], "navto_room"], ["approach_person", ["nurse"], "approach_nurse"], ["authenticate_person", ["nurse"], "authenticate_nurse"], ["operate_drawer", ["open"], "open_drawer_for_nurse"], ["send_message", ["nurse"], "notify_nurse_of_open_drawer_for_nurse_completed"], ["wait_message", ["nurse"], "wait_nurse_to_complete_deposit"], ["operate_drawer", ["close"], "close_drawer_nurse"], ["navigation", ["Laboratory", [[-18.0, 13.0, 1.57], [-18.0, 16.0], [-26.0, 16.0], [-26.0, 13.0, 1.57]]], "navto_lab"], ["approach_robot", ["lab_arm"], "approach_arm"], ["operate_drawer", ["open"], "open_drawer_lab"], ["send_message", ["lab_arm"], "notify_lab_arm_of_open_drawer_lab_completed"], ["wait_message", ["lab_arm"], "wait_lab_arm_to_complete_pick_up_sample"], ["operate_drawer", ["close"], "close_drawer_lab"]], "location": "PC Room 5", "name": "r1", "position": [-21.0, 18.0, -1.57], "skills": ["approach_person", "approach_robot", "authenticate_person", "navigation", "operate_drawer"]}]
+0.00, [DEBUG], logger, NURSES_CONFIG=[{"location": "PC Room 2", "position": [-20.0, 11.0, 1.57]}]
+0.00, [DEBUG], logger, Simulation open
+0.02, [DEBUG], logger, subcribing to in the topic /log
+55.88, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+55.92, [INFO], turtlebot1, {"battery-level": "23.58%"}
+70.88, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+70.92, [INFO], turtlebot1, {"battery-level": "23.13%"}
+85.88, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+85.92, [INFO], turtlebot1, {"battery-level": "22.68%"}
+100.88, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+100.93, [INFO], turtlebot1, {"battery-level": "22.26%"}
+115.88, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+115.92, [INFO], turtlebot1, {"battery-level": "21.81%"}
+130.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+130.92, [INFO], turtlebot1, {"battery-level": "21.36%"}
+145.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+145.92, [INFO], turtlebot1, {"battery-level": "20.88%"}
+160.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+160.92, [INFO], turtlebot1, {"battery-level": "20.46%"}
+175.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+175.92, [INFO], turtlebot1, {"battery-level": "20.01%"}
+190.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+190.92, [INFO], turtlebot1, {"battery-level": "19.53%"}
+205.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.01", "yaw": "-1.54"}
+205.92, [INFO], turtlebot1, {"battery-level": "19.08%"}
+220.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.01", "yaw": "-1.54"}
+220.92, [INFO], turtlebot1, {"battery-level": "18.63%"}
+235.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.01", "yaw": "-1.54"}
+235.92, [INFO], turtlebot1, {"battery-level": "18.18%"}
+250.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.02", "yaw": "-1.54"}
+250.92, [INFO], turtlebot1, {"battery-level": "17.73%"}
+265.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.02", "yaw": "-1.54"}
+265.92, [INFO], turtlebot1, {"battery-level": "17.28%"}
+280.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.03", "yaw": "-1.54"}
+280.92, [INFO], turtlebot1, {"battery-level": "16.83%"}
+295.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.03", "yaw": "-1.54"}
+295.92, [INFO], turtlebot1, {"battery-level": "16.41%"}
+310.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.03", "yaw": "-1.54"}
+310.92, [INFO], turtlebot1, {"battery-level": "15.96%"}
+325.88, [INFO], turtlebot1, {"y": "18.00", "x": "-21.03", "yaw": "-1.54"}
+325.92, [INFO], turtlebot1, {"battery-level": "15.48%"}
+337.92, [DEBUG], None, end!
+0.00, [DEBUG], logger, ROBOTS_CONFIG=[{"avg_speed": 0.15, "battery_charge": 0.23995139509475963, "battery_discharge_rate": 0.00034, "id": 1, "local_plan": [["navigation", ["PC Room 2", [[-21.0, 18.0, -1.57], [-21.0, 16.0], [-18.0, 16.0], [-18.0, 13.0, 1.57]]], "navto_room"], ["approach_person", ["nurse"], "approach_nurse"], ["authenticate_person", ["nurse"], "authenticate_nurse"], ["operate_drawer", ["open"], "open_drawer_for_nurse"], ["send_message", ["nurse"], "notify_nurse_of_open_drawer_for_nurse_completed"], ["wait_message", ["nurse"], "wait_nurse_to_complete_deposit"], ["operate_drawer", ["close"], "close_drawer_nurse"], ["navigation", ["Laboratory", [[-18.0, 13.0, 1.57], [-18.0, 16.0], [-26.0, 16.0], [-26.0, 13.0, 1.57]]], "navto_lab"], ["approach_robot", ["lab_arm"], "approach_arm"], ["operate_drawer", ["open"], "open_drawer_lab"], ["send_message", ["lab_arm"], "notify_lab_arm_of_open_drawer_lab_completed"], ["wait_message", ["lab_arm"], "wait_lab_arm_to_complete_pick_up_sample"], ["operate_drawer", ["close"], "close_drawer_lab"]], "location": "PC Room 5", "name": "r1", "position": [-21.0, 18.0, -1.57], "skills": ["approach_person", "approach_robot", "authenticate_person", "navigation", "operate_drawer"]}]
+0.00, [DEBUG], logger, NURSES_CONFIG=[{"location": "PC Room 2", "position": [-20.0, 11.0, 1.57]}]
+0.00, [DEBUG], logger, Simulation open
+0.00, [DEBUG], logger, subcribing to in the topic /log
+40.27, [DEBUG], None, end!
+0.00, [DEBUG], logger, ROBOTS_CONFIG=[{"avg_speed": 0.15, "battery_charge": 0.23995139509475963, "battery_discharge_rate": 0.00034, "id": 1, "local_plan": [["navigation", ["PC Room 2", [[-21.0, 18.0, -1.57], [-21.0, 16.0], [-18.0, 16.0], [-18.0, 13.0, 1.57]]], "navto_room"], ["approach_person", ["nurse"], "approach_nurse"], ["authenticate_person", ["nurse"], "authenticate_nurse"], ["operate_drawer", ["open"], "open_drawer_for_nurse"], ["send_message", ["nurse"], "notify_nurse_of_open_drawer_for_nurse_completed"], ["wait_message", ["nurse"], "wait_nurse_to_complete_deposit"], ["operate_drawer", ["close"], "close_drawer_nurse"], ["navigation", ["Laboratory", [[-18.0, 13.0, 1.57], [-18.0, 16.0], [-26.0, 16.0], [-26.0, 13.0, 1.57]]], "navto_lab"], ["approach_robot", ["lab_arm"], "approach_arm"], ["operate_drawer", ["open"], "open_drawer_lab"], ["send_message", ["lab_arm"], "notify_lab_arm_of_open_drawer_lab_completed"], ["wait_message", ["lab_arm"], "wait_lab_arm_to_complete_pick_up_sample"], ["operate_drawer", ["close"], "close_drawer_lab"]], "location": "PC Room 5", "name": "r1", "position": [-21.0, 18.0, -1.57], "skills": ["approach_person", "approach_robot", "authenticate_person", "navigation", "operate_drawer"]}]
+0.00, [DEBUG], logger, NURSES_CONFIG=[{"location": "PC Room 2", "position": [-20.0, 11.0, 1.57]}]
+0.02, [DEBUG], logger, Simulation open
+0.02, [DEBUG], logger, subcribing to in the topic /log
+31.30, [DEBUG], None, end!
+0.00, [DEBUG], logger, ROBOTS_CONFIG=[{"avg_speed": 0.15, "battery_charge": 0.23995139509475963, "battery_discharge_rate": 0.00034, "id": 1, "local_plan": [["navigation", ["PC Room 2", [[-21.0, 18.0, -1.57], [-21.0, 16.0], [-18.0, 16.0], [-18.0, 13.0, 1.57]]], "navto_room"], ["approach_person", ["nurse"], "approach_nurse"], ["authenticate_person", ["nurse"], "authenticate_nurse"], ["operate_drawer", ["open"], "open_drawer_for_nurse"], ["send_message", ["nurse"], "notify_nurse_of_open_drawer_for_nurse_completed"], ["wait_message", ["nurse"], "wait_nurse_to_complete_deposit"], ["operate_drawer", ["close"], "close_drawer_nurse"], ["navigation", ["Laboratory", [[-18.0, 13.0, 1.57], [-18.0, 16.0], [-26.0, 16.0], [-26.0, 13.0, 1.57]]], "navto_lab"], ["approach_robot", ["lab_arm"], "approach_arm"], ["operate_drawer", ["open"], "open_drawer_lab"], ["send_message", ["lab_arm"], "notify_lab_arm_of_open_drawer_lab_completed"], ["wait_message", ["lab_arm"], "wait_lab_arm_to_complete_pick_up_sample"], ["operate_drawer", ["close"], "close_drawer_lab"]], "location": "PC Room 5", "name": "r1", "position": [-21.0, 18.0, -1.57], "skills": ["approach_person", "approach_robot", "authenticate_person", "navigation", "operate_drawer"]}]
+0.00, [DEBUG], logger, NURSES_CONFIG=[{"location": "PC Room 2", "position": [-20.0, 11.0, 1.57]}]
+0.00, [DEBUG], logger, Simulation open
+0.00, [DEBUG], logger, subcribing to in the topic /log
+55.95, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+55.98, [INFO], turtlebot1, {"battery-level": "23.61%"}
+70.95, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+70.98, [INFO], turtlebot1, {"battery-level": "23.16%"}
+85.95, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+85.98, [INFO], turtlebot1, {"battery-level": "22.68%"}
+100.95, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+100.98, [INFO], turtlebot1, {"battery-level": "22.26%"}
+115.97, [INFO], turtlebot1, {"y": "18.00", "x": "-20.99", "yaw": "-1.54"}
+115.98, [INFO], turtlebot1, {"battery-level": "21.78%"}
+130.97, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+130.98, [INFO], turtlebot1, {"battery-level": "21.33%"}
+145.95, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+145.98, [INFO], turtlebot1, {"battery-level": "20.88%"}
+160.95, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+160.98, [INFO], turtlebot1, {"battery-level": "20.46%"}
+175.95, [INFO], turtlebot1, {"y": "18.00", "x": "-21.00", "yaw": "-1.54"}
+175.98, [INFO], turtlebot1, {"battery-level": "19.98%"}
+180.38, [DEBUG], None, end!
+0.00, [DEBUG], logger, ROBOTS_CONFIG=[{"avg_speed": 0.15, "battery_charge": 0.23995139509475963, "battery_discharge_rate": 0.00034, "id": 1, "local_plan": [["navigation", ["PC Room 2", [[-21.0, 18.0, -1.57], [-21.0, 16.0], [-18.0, 16.0], [-18.0, 13.0, 1.57]]], "navto_room"], ["approach_person", ["nurse"], "approach_nurse"], ["authenticate_person", ["nurse"], "authenticate_nurse"], ["operate_drawer", ["open"], "open_drawer_for_nurse"], ["send_message", ["nurse"], "notify_nurse_of_open_drawer_for_nurse_completed"], ["wait_message", ["nurse"], "wait_nurse_to_complete_deposit"], ["operate_drawer", ["close"], "close_drawer_nurse"], ["navigation", ["Laboratory", [[-18.0, 13.0, 1.57], [-18.0, 16.0], [-26.0, 16.0], [-26.0, 13.0, 1.57]]], "navto_lab"], ["approach_robot", ["lab_arm"], "approach_arm"], ["operate_drawer", ["open"], "open_drawer_lab"], ["send_message", ["lab_arm"], "notify_lab_arm_of_open_drawer_lab_completed"], ["wait_message", ["lab_arm"], "wait_lab_arm_to_complete_pick_up_sample"], ["operate_drawer", ["close"], "close_drawer_lab"]], "location": "PC Room 5", "name": "r1", "position": [-21.0, 18.0, -1.57], "skills": ["approach_person", "approach_robot", "authenticate_person", "navigation", "operate_drawer"]}]
+0.00, [DEBUG], logger, NURSES_CONFIG=[{"location": "PC Room 2", "position": [-20.0, 11.0, 1.57]}]
+0.02, [DEBUG], logger, Simulation open
+0.02, [DEBUG], logger, subcribing to in the topic /log
+0.85, [DEBUG], None, [debug],turtlebot1,move-base-info,Move_base is up and ok....,
+0.88, [DEBUG], None, [debug],turtlebot1,move-base-info,Move_base is up and ok....,
+9.62, [DEBUG], turtlebot1, {"param_list": [], "skill": "init_robobt", "skill-life-cycle": "SUCCESS", "label": "init_robobt"}
+9.62, [DEBUG], turtlebot1, "available-skills=['send_message', 'wait_message', 'approach_person', 'approach_robot', 'authenticate_person', 'navigation', 'operate_drawer']"
+9.62, [DEBUG], turtlebot1, {"param_list": ["PC Room 2", [[-21.0, 16.0, 0.0, true], [-18.0, 16.0, -1.5707963267948966, true], [-18.0, 13.0, 1.57, false]]], "skill": "navigation", "skill-life-cycle": "STARTED", "label": "navto_room"}
+38.43, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-21;y=16)
+38.43, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-21;y=16)
+38.45, [DEBUG], turtlebot1, {"status": "way-point-reached", "skill": "navigation", "percentage": "33.33%", "goingto": "PC Room 2"}
+38.63, [INFO], turtlebot1, {"y": "16.45", "x": "-20.97", "yaw": "-0.05"}
+38.63, [INFO], turtlebot1, {"y": "16.45", "x": "-20.97", "yaw": "-0.05"}
+38.65, [INFO], turtlebot1, {"battery-level": "23.58%"}
+38.65, [INFO], turtlebot1, {"battery-level": "23.58%"}
+53.63, [INFO], turtlebot1, {"y": "16.00", "x": "-19.95", "yaw": "-0.07"}
+53.63, [INFO], turtlebot1, {"y": "16.00", "x": "-19.95", "yaw": "-0.07"}
+53.65, [INFO], turtlebot1, {"battery-level": "23.16%"}
+53.67, [INFO], turtlebot1, {"battery-level": "23.16%"}
+58.13, [DEBUG], turtlebot1, {"param_list": ["PC Room 2", [[-21.0, 16.0, 0.0, true], [-18.0, 16.0, -1.5707963267948966, true], [-18.0, 13.0, 1.57, false]]], "skill": "navigation", "skill-life-cycle": "RUNNING", "label": "navto_room"}
+67.27, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-18;y=16)
+67.27, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-18;y=16)
+67.37, [DEBUG], turtlebot1, {"status": "way-point-reached", "skill": "navigation", "percentage": "66.67%", "goingto": "PC Room 2"}
+68.63, [INFO], turtlebot1, {"y": "16.32", "x": "-18.36", "yaw": "-1.53"}
+68.65, [INFO], turtlebot1, {"battery-level": "22.71%"}
+68.68, [INFO], turtlebot1, {"y": "16.32", "x": "-18.36", "yaw": "-1.53"}
+68.68, [INFO], turtlebot1, {"battery-level": "22.71%"}
+83.63, [INFO], turtlebot1, {"y": "16.08", "x": "-18.33", "yaw": "-1.29"}
+83.63, [INFO], turtlebot1, {"y": "16.08", "x": "-18.33", "yaw": "-1.29"}
+83.65, [INFO], turtlebot1, {"battery-level": "22.26%"}
+83.65, [INFO], turtlebot1, {"battery-level": "22.26%"}
+98.63, [INFO], turtlebot1, {"y": "14.85", "x": "-18.04", "yaw": "-1.41"}
+98.67, [INFO], turtlebot1, {"battery-level": "21.81%"}
+98.70, [INFO], turtlebot1, {"y": "14.85", "x": "-18.04", "yaw": "-1.41"}
+98.72, [INFO], turtlebot1, {"battery-level": "21.81%"}
+112.18, [DEBUG], turtlebot1, {"param_list": ["PC Room 2", [[-21.0, 16.0, 0.0, true], [-18.0, 16.0, -1.5707963267948966, true], [-18.0, 13.0, 1.57, false]]], "skill": "navigation", "skill-life-cycle": "RUNNING", "label": "navto_room"}
+113.63, [INFO], turtlebot1, {"y": "13.60", "x": "-18.09", "yaw": "-1.47"}
+113.65, [INFO], turtlebot1, {"y": "13.60", "x": "-18.09", "yaw": "-1.47"}
+113.65, [INFO], turtlebot1, {"battery-level": "21.33%"}
+113.67, [INFO], turtlebot1, {"battery-level": "21.33%"}
+122.62, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-18;y=13)
+122.62, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-18;y=13)
+122.82, [DEBUG], turtlebot1, {"status": "way-point-reached", "skill": "navigation", "percentage": "100.00%", "goingto": "PC Room 2"}
+122.92, [DEBUG], turtlebot1, {"param_list": ["PC Room 2", [[-21.0, 16.0, 0.0, true], [-18.0, 16.0, -1.5707963267948966, true], [-18.0, 13.0, 1.57, false]]], "skill": "navigation", "skill-life-cycle": "SUCCESS", "label": "navto_room"}
+122.92, [DEBUG], turtlebot1, "available-skills=['send_message', 'wait_message', 'approach_person', 'approach_robot', 'authenticate_person', 'navigation', 'operate_drawer']"
+122.92, [DEBUG], turtlebot1, {"param_list": ["nurse"], "skill": "approach_person", "skill-life-cycle": "STARTED", "label": "approach_nurse"}
+122.98, [DEBUG], turtlebot1, {"status": "localize-person", "skill": "approach-person", "who": "nurse"}
+123.58, [DEBUG], turtlebot1, {"status": "goto-person", "skill": "approach-person", "who": "nurse"}
+123.68, [DEBUG], turtlebot1, {"param_list": ["nurse"], "skill": "approach_person", "skill-life-cycle": "SUCCESS", "label": "approach_nurse"}
+123.68, [DEBUG], turtlebot1, "available-skills=['send_message', 'wait_message', 'approach_person', 'approach_robot', 'authenticate_person', 'navigation', 'operate_drawer']"
+123.70, [DEBUG], turtlebot1, {"param_list": ["nurse"], "skill": "authenticate_person", "skill-life-cycle": "STARTED", "label": "authenticate_nurse"}
+123.77, [INFO], nurse, {"status": "message-received", "skill": "athentication-request"}
+123.77, [DEBUG], turtlebot1, {"status": "request-authentication", "to": "nurse", "skill": "authenticate-person"}
+123.77, [INFO], nurse, {"status": "message-received", "skill": "athentication-request"}
+124.03, [DEBUG], turtlebot1, {"status": "received-authentication", "skill": "authenticate-person", "from": "nurse"}
+124.13, [DEBUG], turtlebot1, {"param_list": ["nurse"], "skill": "authenticate_person", "skill-life-cycle": "SUCCESS", "label": "authenticate_nurse"}
+124.17, [DEBUG], turtlebot1, "available-skills=['send_message', 'wait_message', 'approach_person', 'approach_robot', 'authenticate_person', 'navigation', 'operate_drawer']"
+124.17, [DEBUG], turtlebot1, {"param_list": ["open"], "skill": "operate_drawer", "skill-life-cycle": "STARTED", "label": "open_drawer_for_nurse"}
+124.22, [DEBUG], turtlebot1, {"status": "task-update", "action": "open", "skill": "operate-drawer"}
+125.28, [DEBUG], turtlebot1, {"param_list": ["open"], "skill": "operate_drawer", "skill-life-cycle": "SUCCESS", "label": "open_drawer_for_nurse"}
+125.28, [DEBUG], turtlebot1, "available-skills=['send_message', 'wait_message', 'approach_person', 'approach_robot', 'authenticate_person', 'navigation', 'operate_drawer']"
+125.30, [DEBUG], turtlebot1, {"param_list": ["nurse"], "skill": "send_message", "skill-life-cycle": "STARTED", "label": "notify_nurse_of_open_drawer_for_nurse_completed"}
+125.37, [INFO], turtlebot1, {"to": "nurse", "skill": "send-message"}
+126.30, [INFO], nurse, {"status": "message-received", "skill": "wait-message"}
+126.30, [INFO], nurse, {"status": "message-received", "skill": "wait-message"}
+128.65, [INFO], turtlebot1, {"y": "13.42", "x": "-18.05", "yaw": "1.53"}
+128.65, [INFO], turtlebot1, {"battery-level": "20.91%"}
+128.72, [INFO], turtlebot1, {"y": "13.42", "x": "-18.05", "yaw": "1.53"}
+128.72, [INFO], turtlebot1, {"battery-level": "20.91%"}
+129.48, [DEBUG], turtlebot1, {"param_list": ["nurse"], "skill": "send_message", "skill-life-cycle": "SUCCESS", "label": "notify_nurse_of_open_drawer_for_nurse_completed"}
+129.48, [DEBUG], turtlebot1, "available-skills=['send_message', 'wait_message', 'approach_person', 'approach_robot', 'authenticate_person', 'navigation', 'operate_drawer']"
+129.48, [DEBUG], turtlebot1, {"param_list": ["nurse"], "skill": "wait_message", "skill-life-cycle": "STARTED", "label": "wait_nurse_to_complete_deposit"}
+130.38, [INFO], turtlebot1, {"status": "message-received", "skill": "wait-message"}
+130.48, [DEBUG], turtlebot1, {"param_list": ["nurse"], "skill": "wait_message", "skill-life-cycle": "SUCCESS", "label": "wait_nurse_to_complete_deposit"}
+130.48, [DEBUG], turtlebot1, "available-skills=['send_message', 'wait_message', 'approach_person', 'approach_robot', 'authenticate_person', 'navigation', 'operate_drawer']"
+130.48, [DEBUG], turtlebot1, {"param_list": ["close"], "skill": "operate_drawer", "skill-life-cycle": "STARTED", "label": "close_drawer_nurse"}
+130.53, [DEBUG], turtlebot1, {"status": "task-update", "action": "close", "skill": "operate-drawer"}
+131.65, [DEBUG], turtlebot1, {"param_list": ["close"], "skill": "operate_drawer", "skill-life-cycle": "SUCCESS", "label": "close_drawer_nurse"}
+131.65, [DEBUG], turtlebot1, "available-skills=['send_message', 'wait_message', 'approach_person', 'approach_robot', 'authenticate_person', 'navigation', 'operate_drawer']"
+131.67, [DEBUG], turtlebot1, {"param_list": ["Laboratory", [[-18.0, 16.0, 3.141592653589793, true], [-26.0, 16.0, -1.5707963267948966, true], [-26.0, 13.0, 1.57, false]]], "skill": "navigation", "skill-life-cycle": "STARTED", "label": "navto_lab"}
+136.30, [INFO], nurse, {"status": "message-received", "skill": "wait-message"}
+136.30, [INFO], nurse, {"status": "message-received", "skill": "wait-message"}
+143.63, [INFO], turtlebot1, {"y": "15.52", "x": "-18.00", "yaw": "1.80"}
+143.63, [INFO], turtlebot1, {"y": "15.52", "x": "-18.00", "yaw": "1.80"}
+143.65, [INFO], turtlebot1, {"battery-level": "20.43%"}
+143.73, [INFO], turtlebot1, {"battery-level": "20.43%"}
+143.75, [INFO], nurse, {"status": "waiting", "skill": "athentication-sent"}
+143.77, [INFO], nurse, {"status": "waiting", "skill": "athentication-sent"}
+146.32, [INFO], nurse, {"status": "message-received", "skill": "wait-message"}
+146.32, [INFO], nurse, {"status": "message-received", "skill": "wait-message"}
+147.35, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-18;y=16)
+147.35, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-18;y=16)
+147.37, [DEBUG], turtlebot1, {"status": "way-point-reached", "skill": "navigation", "percentage": "33.33%", "goingto": "Laboratory"}
+156.32, [INFO], nurse, {"status": "message-received", "skill": "wait-message"}
+156.32, [INFO], nurse, {"status": "message-received", "skill": "wait-message"}
+158.63, [INFO], turtlebot1, {"y": "15.64", "x": "-19.03", "yaw": "3.08"}
+158.63, [INFO], turtlebot1, {"y": "15.64", "x": "-19.03", "yaw": "3.08"}
+158.65, [INFO], turtlebot1, {"battery-level": "20.01%"}
+158.67, [INFO], turtlebot1, {"battery-level": "20.01%"}
+172.10, [DEBUG], turtlebot1, {"param_list": ["Laboratory", [[-18.0, 16.0, 3.141592653589793, true], [-26.0, 16.0, -1.5707963267948966, true], [-26.0, 13.0, 1.57, false]]], "skill": "navigation", "skill-life-cycle": "RUNNING", "label": "navto_lab"}
+173.63, [INFO], turtlebot1, {"y": "15.65", "x": "-21.54", "yaw": "-3.12"}
+173.63, [INFO], turtlebot1, {"y": "15.65", "x": "-21.54", "yaw": "-3.12"}
+173.65, [INFO], turtlebot1, {"battery-level": "19.56%"}
+173.65, [INFO], turtlebot1, {"battery-level": "19.56%"}
+188.63, [INFO], turtlebot1, {"y": "15.63", "x": "-24.03", "yaw": "3.14"}
+188.63, [INFO], turtlebot1, {"y": "15.63", "x": "-24.03", "yaw": "3.14"}
+188.65, [INFO], turtlebot1, {"battery-level": "19.11%"}
+188.65, [INFO], turtlebot1, {"battery-level": "19.11%"}
+202.58, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-26;y=16)
+202.68, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-26;y=16)
+202.80, [DEBUG], turtlebot1, {"status": "way-point-reached", "skill": "navigation", "percentage": "66.67%", "goingto": "Laboratory"}
+203.63, [INFO], turtlebot1, {"y": "15.84", "x": "-25.59", "yaw": "-1.61"}
+203.65, [INFO], turtlebot1, {"y": "15.84", "x": "-25.59", "yaw": "-1.61"}
+203.65, [INFO], turtlebot1, {"battery-level": "18.63%"}
+203.67, [INFO], turtlebot1, {"battery-level": "18.63%"}
+218.63, [INFO], turtlebot1, {"y": "15.06", "x": "-25.71", "yaw": "-1.72"}
+218.63, [INFO], turtlebot1, {"y": "15.06", "x": "-25.71", "yaw": "-1.72"}
+218.65, [INFO], turtlebot1, {"battery-level": "18.18%"}
+218.65, [INFO], turtlebot1, {"battery-level": "18.18%"}
+231.30, [DEBUG], turtlebot1, {"param_list": ["Laboratory", [[-18.0, 16.0, 3.141592653589793, true], [-26.0, 16.0, -1.5707963267948966, true], [-26.0, 13.0, 1.57, false]]], "skill": "navigation", "skill-life-cycle": "RUNNING", "label": "navto_lab"}
+233.63, [INFO], turtlebot1, {"y": "13.81", "x": "-25.82", "yaw": "-1.60"}
+233.63, [INFO], turtlebot1, {"y": "13.81", "x": "-25.82", "yaw": "-1.60"}
+233.65, [INFO], turtlebot1, {"battery-level": "17.73%"}
+233.65, [INFO], turtlebot1, {"battery-level": "17.73%"}
+245.62, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-26;y=13)
+245.62, [DEBUG], None, [debug],turtlebot1,move-base-info,Hooray, the base moved arrived,(x=-26;y=13)
+245.73, [DEBUG], turtlebot1, {"status": "way-point-reached", "skill": "navigation", "percentage": "100.00%", "goingto": "Laboratory"}
+245.82, [DEBUG], turtlebot1, {"param_list": ["Laboratory", [[-18.0, 16.0, 3.141592653589793, true], [-26.0, 16.0, -1.5707963267948966, true], [-26.0, 13.0, 1.57, false]]], "skill": "navigation", "skill-life-cycle": "SUCCESS", "label": "navto_lab"}
+245.83, [DEBUG], turtlebot1, "available-skills=['send_message', 'wait_message', 'approach_person', 'approach_robot', 'authenticate_person', 'navigation', 'operate_drawer']"
+245.83, [DEBUG], turtlebot1, {"param_list": ["lab_arm"], "skill": "approach_robot", "skill-life-cycle": "STARTED", "label": "approach_arm"}
+245.88, [DEBUG], turtlebot1, {"status": "localize-robot", "skill": "=approach-robot", "who": "lab_arm"}
+246.92, [DEBUG], turtlebot1, {"status": "goto-robot", "skill": "approach-robot", "who": "lab_arm"}
+247.02, [DEBUG], turtlebot1, {"param_list": ["lab_arm"], "skill": "approach_robot", "skill-life-cycle": "SUCCESS", "label": "approach_arm"}
+247.02, [DEBUG], turtlebot1, "available-skills=['send_message', 'wait_message', 'approach_person', 'approach_robot', 'authenticate_person', 'navigation', 'operate_drawer']"
+247.02, [DEBUG], turtlebot1, {"param_list": ["open"], "skill": "operate_drawer", "skill-life-cycle": "STARTED", "label": "open_drawer_lab"}
+247.08, [DEBUG], turtlebot1, {"status": "task-update", "action": "open", "skill": "operate-drawer"}
+248.25, [DEBUG], turtlebot1, {"param_list": ["open"], "skill": "operate_drawer", "skill-life-cycle": "SUCCESS", "label": "open_drawer_lab"}
+248.25, [DEBUG], turtlebot1, "available-skills=['send_message', 'wait_message', 'approach_person', 'approach_robot', 'authenticate_person', 'navigation', 'operate_drawer']"
+248.27, [DEBUG], turtlebot1, {"param_list": ["lab_arm"], "skill": "send_message", "skill-life-cycle": "STARTED", "label": "notify_lab_arm_of_open_drawer_lab_completed"}
+248.30, [INFO], turtlebot1, {"to": "lab_arm", "skill": "send-message"}
+248.63, [INFO], turtlebot1, {"y": "13.39", "x": "-25.86", "yaw": "1.62"}
+248.63, [INFO], turtlebot1, {"y": "13.39", "x": "-25.86", "yaw": "1.62"}
+248.65, [INFO], turtlebot1, {"battery-level": "17.28%"}
+248.65, [INFO], turtlebot1, {"battery-level": "17.28%"}
+249.30, [INFO], lab_arm, {"status": "sample-received", "skill": "wait-sample"}
+249.30, [INFO], lab_arm, {"status": "sample-received", "skill": "wait-sample"}
+249.30, [INFO], nurse, {"status": "sample-received", "skill": "wait-sample"}
+249.30, [INFO], nurse, {"status": "sample-received", "skill": "wait-sample"}
+249.32, [DEBUG], None, ENDSIM
+249.32, [DEBUG], None, ENDSIM
+249.32, [DEBUG], None, end!

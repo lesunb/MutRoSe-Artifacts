@@ -1,0 +1,332 @@
+{
+    "0": {
+        "name": "ROOT",
+        "type": "task",
+        "parent": "-1",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "1"
+        ]
+    },
+    "1": {
+        "name": "ROOT_M",
+        "type": "method",
+        "parent": "0",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "2",
+            "5",
+            "8",
+            "11",
+            "15",
+            "18",
+            "21",
+            "24"
+        ]
+    },
+    "2": {
+        "name": "EnterRoom",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "3"
+        ]
+    },
+    "3": {
+        "name": "room-enter",
+        "type": "method",
+        "parent": "2",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "4"
+        ]
+    },
+    "4": {
+        "name": "enter-room",
+        "type": "action",
+        "parent": "3",
+        "locations": [
+            "RoomA"
+        ],
+        "agents": [
+            "r1"
+        ],
+        "children": ""
+    },
+    "5": {
+        "name": "ApproachPatient",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "6"
+        ]
+    },
+    "6": {
+        "name": "available-patient-approach",
+        "type": "method",
+        "parent": "5",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "7"
+        ]
+    },
+    "7": {
+        "name": "approach-patient",
+        "type": "action",
+        "parent": "6",
+        "locations": [
+            "RoomA"
+        ],
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": ""
+    },
+    "8": {
+        "name": "ProvideInstructions",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "9"
+        ]
+    },
+    "9": {
+        "name": "instructions-providing",
+        "type": "method",
+        "parent": "8",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "10"
+        ]
+    },
+    "10": {
+        "name": "provide-instructions",
+        "type": "action",
+        "parent": "9",
+        "locations": [
+            "RoomA"
+        ],
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": ""
+    },
+    "11": {
+        "name": "CollectVitalSigns",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "12"
+        ]
+    },
+    "12": {
+        "name": "infections-disease-checking",
+        "type": "method",
+        "parent": "11",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "13",
+            "14"
+        ]
+    },
+    "13": {
+        "name": "infectious-disease-collect",
+        "type": "action",
+        "parent": "12",
+        "locations": [
+            "RoomA"
+        ],
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": ""
+    },
+    "14": {
+        "name": "mark-as-done",
+        "type": "action",
+        "parent": "12",
+        "locations": [
+            "RoomA"
+        ],
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": ""
+    },
+    "15": {
+        "name": "AssessPatientStatus",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "16"
+        ]
+    },
+    "16": {
+        "name": "patient-assessing",
+        "type": "method",
+        "parent": "15",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "17"
+        ]
+    },
+    "17": {
+        "name": "assess-patient",
+        "type": "action",
+        "parent": "16",
+        "locations": [
+            "RoomA"
+        ],
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": ""
+    },
+    "18": {
+        "name": "SendAlert",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "19"
+        ]
+    },
+    "19": {
+        "name": "alert-sending",
+        "type": "method",
+        "parent": "18",
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": [
+            "20"
+        ]
+    },
+    "20": {
+        "name": "send-alert",
+        "type": "action",
+        "parent": "19",
+        "locations": [
+            "RoomA"
+        ],
+        "agents": [
+            "r1",
+            "Patient1"
+        ],
+        "children": ""
+    },
+    "21": {
+        "name": "RobotSanitization",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "22"
+        ]
+    },
+    "22": {
+        "name": "robot-sanitization",
+        "type": "method",
+        "parent": "21",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "23"
+        ]
+    },
+    "23": {
+        "name": "sanitize-robot",
+        "type": "action",
+        "parent": "22",
+        "locations": [
+            "SanitizationRoom"
+        ],
+        "agents": [
+            "r1"
+        ],
+        "children": ""
+    },
+    "24": {
+        "name": "RechargeBattery",
+        "type": "task",
+        "parent": "1",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "25"
+        ]
+    },
+    "25": {
+        "name": "recharge-battery",
+        "type": "method",
+        "parent": "24",
+        "agents": [
+            "r1"
+        ],
+        "children": [
+            "26"
+        ]
+    },
+    "26": {
+        "name": "robot-recharge",
+        "type": "action",
+        "parent": "25",
+        "locations": "",
+        "agents": [
+            "r1"
+        ],
+        "children": ""
+    }
+}
