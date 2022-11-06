@@ -1,6 +1,6 @@
 # RoboMax-iHTN-examples
 
-A repository with the files for the iHTN generation examples for the MutRoSe framework. In the following sections we show the iHTN drawings for the two simulated examples: (i) Lab Samples Logistics and (ii) Food Logistics
+A repository with the files for the iHTN generation examples for the MutRoSe framework. In the following sections we show the iHTN drawings for the two simulated examples: (i) Lab Samples Logistics and (ii) Food Logistics. The code to transform the generated iHTNs into simulation setups can be found in [this repository](https://github.com/gabrielsr/mission_control-demo/tree/main/mutrose)
 
 ## Lab Samples Logistics
 
