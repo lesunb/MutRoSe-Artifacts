@@ -1,0 +1,225 @@
+[{
+    "code": "scenario_1",
+    "experiment_code": "multrose_flp",
+    "factors": "--",
+    "id": 1,
+    "nurses": [
+        {
+            "label": "Patient1",
+            "location": "PC Room 2",
+            "position": [
+                -18.0,
+                12.0,
+                1.57
+            ]
+        }
+    ],
+    "robots": [
+        {
+            "avg_speed": 0.15,
+            "battery_charge": 1,
+            "battery_discharge_rate": 0.0002,
+            "id": 1,
+            "local_plan": [
+                [
+                    "navigation",
+                    [
+                        "PC Room 2",
+                        [
+                            [
+                                -38.0,
+                                21.5,
+                                0.0
+                            ],
+                            [
+                                -37.0,
+                                21.5
+                            ],
+                            [
+                                -37.0,
+                                16.0
+                            ],
+                            [
+                                -18.0,
+                                16.0
+                            ],
+                            [
+                                -18.0,
+                                14.53,
+                                -1.57
+                            ]
+                        ]
+                    ],
+                    "navto"
+                ],
+                [
+                    "send_message",
+                    [
+                        "r2"
+                    ],
+                    "notify_r2_of_navto_completed"
+                ],
+                [
+                    "wait_message",
+                    [
+                        "r2"
+                    ],
+                    "wait_r2_to_complete_navto"
+                ],
+                [
+                    "navigation",
+                    [
+                        "PC Room 2",
+                        [
+                            [
+                                -18.0,
+                                14.53,
+                                -1.57
+                            ],
+                            [
+                                -18.0,
+                                12.0,
+                                1.57
+                            ]
+                        ]
+                    ],
+                    "navto"
+                ],
+                [
+                    "send_message",
+                    [
+                        "r2"
+                    ],
+                    "notify_r2_of_approach-door_completed"
+                ],
+                [
+                    "wait_message",
+                    [
+                        "r2"
+                    ],
+                    "wait_r2_to_complete_approach-door"
+                ],
+                [
+                    "navigation",
+                    [
+                        "Respiratory Control",
+                        [
+                            [
+                                -18.0,
+                                13.0,
+                                1.57
+                            ],
+                            [
+                                -18.0,
+                                16.0
+                            ],
+                            [
+                                -37.0,
+                                16.0
+                            ],
+                            [
+                                -37,
+                                36,
+                                0.0
+                            ]
+                        ]
+                    ],
+                    "navto"
+                ],
+                [
+                    "pick_up",
+                    [
+                        "dishes",
+                        "Respiratory Control"
+                    ],
+                    "retrieve-dishes"
+                ]
+            ],
+            "location": "IC Room 2",
+            "name": "r1",
+            "position": [
+                -38.0,
+                21.5,
+                0.0
+            ],
+            "skills": [
+                "approach_object",
+                "approach_person",
+                "approach_robot",
+                "authenticate_person",
+                "deposit",
+                "manipulate_door",
+                "navigation",
+                "operate_drawer",
+                "pick_up"
+            ]
+        },
+        {
+            "avg_speed": 0.15,
+            "battery_charge": 1,
+            "battery_discharge_rate": 0.0002,
+            "id": 2,
+            "local_plan": [
+                [
+                    "wait_message",
+                    [
+                        "r2"
+                    ],
+                    "wait_r2_to_complete_approach-door"
+                ],
+                [
+                    "navigation",
+                    [
+                        "door",
+                        [
+                            [
+                                -14.17,
+                                15.08,
+                                3.14
+                            ],
+                            [
+                                -17.37,
+                                14.73,
+                                3.14
+                            ]
+                        ]
+                    ],
+                    "navto"
+                ],
+                [
+                    "send_message",
+                    [
+                        "r2"
+                    ],
+                    "notify_r2_of_approach-door_completed"
+                ],
+                [
+                    "pick_up",
+                    [
+                        "dishes",
+                        "Respiratory Control"
+                    ],
+                    "retrieve-dishes"
+                ]
+            ],
+            "location": "IC Room 2",
+            "name": "r1",
+            "position": [
+                -14.17,
+                15.08,
+                3.14
+            ],
+            "skills": [
+                "approach_object",
+                "approach_person",
+                "approach_robot",
+                "authenticate_person",
+                "deposit",
+                "manipulate_door",
+                "navigation",
+                "operate_drawer",
+                "pick_up"
+            ]
+        }
+    ]
+}]

@@ -1,0 +1,170 @@
+[{
+    "code": "scenario_1",
+    "experiment_code": "multrose_fld",
+    "factors": "--",
+    "id": 1,
+    "nurses": [
+        {
+            "label": "Patient1",
+            "location": "IC Room 1",
+            "position": [
+                -38.0,
+                10.0,
+                0.0
+            ]
+        }
+    ],
+    "robots": [
+        {
+            "avg_speed": 0.15,
+            "battery_charge": 1,
+            "battery_discharge_rate": 0.0002,
+            "id": 1,
+            "local_plan": [
+                [
+                    "navigation",
+                    [
+                        "Respiratory Control",
+                        [
+                            [
+                                -38.0,
+                                21.5,
+                                0.0
+                            ],
+                            [
+                                -37.0,
+                                21.5
+                            ],
+                            [
+                                -37,
+                                36,
+                                -1.57
+                            ]
+                        ]
+                    ],
+                    "navto"
+                ],
+                [
+                    "send_message",
+                    [
+                        "Delivery1"
+                    ],
+                    "notify_Delivery1_of_navto_completed"
+                ],
+                [
+                    "navigation",
+                    [
+                        "IC Room 1",
+                        [
+                            [
+                                -37,
+                                36,
+                                -1.57
+                            ],
+                            [
+                                -37.0,
+                                21.5
+                            ],
+                            [
+                                -37.0,
+                                16.0
+                            ],
+                            [
+                                -36.0,
+                                13.0
+                            ],
+                            [
+                                -37.0,
+                                11.0,
+                                1.57
+                            ]
+                        ]
+                    ],
+                    "navto"
+                ],
+                [
+                    "approach_object",
+                    [
+                        "human",
+                        "IC Room 1"
+                    ],
+                    "approach-human"
+                ],
+                [
+                    "send_message",
+                    [
+                        "Patient1"
+                    ],
+                    "notify_Patient1_of_approach-human_completed"
+                ]
+            ],
+            "location": "IC Room 2",
+            "name": "r1",
+            "position": [
+                -38.0,
+                21.5,
+                0.0
+            ],
+            "skills": [
+                "approach_object",
+                "approach_person",
+                "approach_robot",
+                "authenticate_person",
+                "deposit",
+                "manipulate_door",
+                "navigation",
+                "operate_drawer",
+                "pick_up"
+            ]
+        },
+        {
+            "avg_speed": 0.15,
+            "battery_charge": 1,
+            "battery_discharge_rate": 0.0002,
+            "id": 2,
+            "local_plan": [
+                [
+                    "navigation",
+                    [
+                        "Respiratory Control",
+                        [
+                            [
+                                -27.25,
+                                13.00,
+                                1.57
+                            ],
+                            [
+                                -27.25,
+                                16.00
+                            ],
+                            [
+                                -37.5,
+                                10.5,
+                                3.14
+                            ]
+                        ]
+                    ],
+                    "navto"
+                ]
+            ],
+            "location": "IC Room 2",
+            "name": "r1",
+            "position": [
+                -27.25,
+                13.00,
+                1.57
+            ],
+            "skills": [
+                "approach_object",
+                "approach_person",
+                "approach_robot",
+                "authenticate_person",
+                "deposit",
+                "manipulate_door",
+                "navigation",
+                "operate_drawer",
+                "pick_up"
+            ]
+        }
+    ]
+}]
